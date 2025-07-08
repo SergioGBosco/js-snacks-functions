@@ -5,7 +5,10 @@ const word = 'javascript';
 
 // Dichiara la funzione qui.
 //creo una funzione che mi permette di elencare le vocali all'interno dell'elemento 
-function vocaliword(string) {
+// function vocaliword(string) {
+
+//Utilizzo la funzione freccia -
+const vocaliword = (string) => {
 
   //Creo una variabile vuota dove all'interno andrò ad inserire solo le vocali trovate nell'elemento in questione e un altra variabile per confrontare le vocali 
 
