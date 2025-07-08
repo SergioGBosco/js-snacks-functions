@@ -7,7 +7,9 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
 // function firstletterword(array) {
 //   return array.map(string => string.charAt(0));
 // }
-function firstletter(array) {
+// function firstletter(array) {
+//creo una funzione freccia
+const firstletter = (array) => {
 
   //creo una variabile per andare ad inserire come da consegna le prime lettere di ogni elemento che fa parte dell'array 
 
