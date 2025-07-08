@@ -4,7 +4,9 @@ const userName = 'Mario';
 
 
 // Dichiara la funzione qui.
-function hello(name) {
+// function hello(name) {
+//creo una funzione freccia
+const hello = (name) => {
   return (`Ciao ${name}`);
 }
 
