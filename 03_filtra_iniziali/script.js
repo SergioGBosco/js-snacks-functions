@@ -7,8 +7,10 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Laura", "Alessandra"];
 const startletter = prompt(`Inserisci una lettera`)
 
 // Dichiara la funzione qui.
-function firstletter(array, x) {
 
+//utilizzo la funzione freccia 
+// function firstletter(array, x) {
+const firstletter = (array, x) => {
 
   //creo una variabile attualemente vuota per permettere al programma di andare ad inserire all'interno i nomi di persona che iniziano con la lettera indicata dall'utente 
 
