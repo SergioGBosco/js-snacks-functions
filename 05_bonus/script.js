@@ -11,7 +11,10 @@ const name = 'Mario';
 // Dichiara la funzione qui.
 
 //creo una variabile che contiene un saluto
-function hello(string) {
+// function hello(string) {
+
+//Creo una seconda funzione con il metodo funzioni freccia 
+const hello = (string) => {
   let message = `Buon giorno ${string}`;
 
   //creo una variabile per stabilire l'ora
@@ -36,4 +39,4 @@ function hello(string) {
 hello(name);
 console.log(hello(name))
 
-//Risultato atteso se si passa 'Mario' alle 18: // Buonasera Mario.
+//Risultato atteso se si passa 'Mario' alle 18: // Buonasera Mario.                    
